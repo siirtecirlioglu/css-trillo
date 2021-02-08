@@ -29,3 +29,26 @@
     flex: 1;
     background-color: var(--white);
 }
+
+.detail {
+    font-size: 1.4rem;
+    display: flex;
+    padding: 4rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
+
+.description {
+    background-color: var(--white);
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4rem;
+}
+
+.user-reviews {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
